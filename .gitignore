@@ -1,0 +1,47 @@
+# ============================================================
+# Employee Attrition Prediction System — .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Model artifacts (large files) ---
+# Uncomment below if you do NOT want to track trained models
+# models/*.pkl
+# models/*.joblib
+
+# --- Outputs ---
+# outputs/plots/
+# outputs/reports/
+
+# --- Miscellaneous ---
+*.log
+*.tmp
